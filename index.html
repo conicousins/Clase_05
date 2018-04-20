@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SU TEMA">
+    <meta name="author" content="SU NOMBRE">
+    <title>Series de Netflix</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Series de Netflix</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#primera">Netflix</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#segunda">A nivel global</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#tercera">En Chile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col text-center">
+          	<h1>Series de Netflix</h1>
+          	<h2>LAS PREFERIDAS DEL PÚBLICO</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="primera">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-primera"></div>
+          <div class="col-lg-6">
+          	<h3 class="mt-3">NETFLIX</h3>
+          	<p>Netflix es un distribuidor de contenido multimedia en línea. Su programación está compuesta, en parte, por contenido desarrollado exclusivamente para el servicio, incluyendo series originales tales como House of Cards y Orange Is the New Black, especiales, miniseries, y películas tales como The Square, la cual fue nomidada para un Premio de la Academia, la primera nominación para una producción de Netflix.</p>
+            <p>La programación original de Netflix también incluye continuaciones de series que anteriormente habían sido canceladas por otros canales, incluyendo Arrested Development, The Killing, Star Wars: The Clone Wars, Trailer Park Boys y Longmire.</p>
+            <P>Netflix dio información sobre los hábitos de sus usuarios en algunos países latinoamericanos. Después de México, el primer país del mundo con más usuarios que ven Netflix todos los días, se encuentra Perú (3er lugar), Chile (5to), Brasil (6to) y Argentina (7mo).</P>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="segunda" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="mt-3">A NIVEL GLOBAL</h3>
+            <p>Estas son las cinco series más vistas a nivel mundial:</p>
+            <p>1.Sherlock (2010) - 2.Friends (1994-2004) - 3.Narcos (2015) - 4.House of Cards (2013) - 5.New Girl (2011)</p>
+          </div>
+          <div class="col-lg-6 text-right dataviz-segunda"></div>
+        </div>
+      </div>
+    </section>
+    <section id="Breaking bad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 dataviz-tercera"></div>
+          <div class="col-lg-6">
+            <h3 class="mt-3">BREAKING BAD</h3>
+            <h3>La más vista en Chile</h3>
+            <p>El sitio High Speed Internet realizó un estudio basándose en las mayores búsquedas y reproducciones de las distintas series alrededor del mundo. El análisis indica qué serie es la más popular en cada país y las más vistas a nivel internacional.</p>
+            <p>En Chile, la ficción más popular es Breaking Bad, la serie creada por Vince Gilligan, mientras que al otro lado de la cordillera es Grand Hotel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      	<div class="row">
+      		<div class="col">
+		        <p class="small">Desarrollado por <a href="coni.cousins@mail.com">Constanza Cousins</a> | Seminario Gráfica Computacional I 2018, Primer Semestre</p>
+		        <ul class="list-inline small">
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#primera">Netflix</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#segunda">A nivel global</a>
+		          </li>
+		          <li class="list-inline-item">
+		            <a class="nav-link js-scroll-trigger" href="#tercera">En Chile</a>
+		          </li>
+		        </ul>
+      		</div>
+      	</div>
+      </div>
+    </footer>
+
+    <!-- Javascript de visualizaciones-->
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="d3/primera.js"></script>
+	<script src="d3/segunda.js"></script>
+	<script src="d3/tercera.js"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
